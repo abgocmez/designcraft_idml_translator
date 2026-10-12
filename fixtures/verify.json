@@ -1,0 +1,244 @@
+{
+ "fx_table": {
+  "build_last_results": {
+   "bytes": 9995,
+   "path": "C:/Programming/craft-studio/idml-translator/fixtures/fx_table.idml"
+  },
+  "inspect": {
+   "pageCount": 1,
+   "parents": [
+    {
+     "id": 4,
+     "items": 0,
+     "label": "A-Parent"
+    }
+   ],
+   "stories": [
+    {
+     "id": 2,
+     "frames": [
+      8
+     ],
+     "overset": false,
+     "preview": "Price list (table follows):\n\nText after the table."
+    }
+   ],
+   "warnings": []
+  },
+  "openIdml": {
+   "documentFonts": 0,
+   "warnings": []
+  }
+ },
+ "fx_footnote": {
+  "build_last_results": {
+   "bytes": 9293,
+   "path": "C:/Programming/craft-studio/idml-translator/fixtures/fx_footnote.idml"
+  },
+  "inspect": {
+   "pageCount": 1,
+   "parents": [
+    {
+     "id": 3,
+     "items": 0,
+     "label": "A-Parent"
+    }
+   ],
+   "stories": [
+    {
+     "id": 2,
+     "frames": [
+      7
+     ],
+     "overset": false,
+     "preview": "Body text with a footnote and the sentence continues after the refere"
+    }
+   ],
+   "warnings": []
+  },
+  "openIdml": {
+   "documentFonts": 0,
+   "warnings": []
+  }
+ },
+ "fx_nested": {
+  "build_last_results": {
+   "bytes": 10274,
+   "path": "C:/Programming/craft-studio/idml-translator/fixtures/fx_nested.idml"
+  },
+  "patch": {
+   "anchored_frame": "u8",
+   "anchored_story": "u9",
+   "host_story": "ub"
+  },
+  "inspect": {
+   "pageCount": 1,
+   "parents": [
+    {
+     "id": 4,
+     "items": 0,
+     "label": "A-Parent"
+    }
+   ],
+   "stories": [
+    {
+     "id": 2,
+     "frames": [],
+     "overset": true,
+     "preview": "Sidebar: anchored text frame with its own story, a bold word and a tab"
+    },
+    {
+     "id": 3,
+     "frames": [
+      8
+     ],
+     "overset": false,
+     "preview": "Main story before the anchor.  Main story after the anchor.\nSecond par"
+    }
+   ],
+   "warnings": []
+  },
+  "openIdml": {
+   "documentFonts": 0,
+   "warnings": []
+  }
+ },
+ "fx_vars_links": {
+  "build_last_results": {
+   "bytes": 9471,
+   "path": "C:/Programming/craft-studio/idml-translator/fixtures/fx_vars_links.idml"
+  },
+  "patch": {
+   "story": "Stories/Story_u8.xml",
+   "variables": [
+    "dTextVariablenProduct",
+    "dTextVariablenLast Page Number"
+   ],
+   "hyperlinks": [
+    "Site link",
+    "Mail link"
+   ]
+  },
+  "inspect": {
+   "pageCount": 1,
+   "parents": [
+    {
+     "id": 3,
+     "items": 0,
+     "label": "A-Parent"
+    }
+   ],
+   "stories": [
+    {
+     "id": 2,
+     "frames": [
+      7
+     ],
+     "overset": false,
+     "preview": "Buy the  today. Visit our website for details. This is page  of . Wri"
+    }
+   ],
+   "warnings": []
+  },
+  "openIdml": {
+   "documentFonts": 0,
+   "warnings": []
+  }
+ },
+ "fx_master_caps": {
+  "build_last_results": {
+   "bytes": 10573,
+   "path": "C:/Programming/craft-studio/idml-translator/fixtures/fx_master_caps.idml"
+  },
+  "patch": {
+   "moved_frame": "u9",
+   "story": "ua",
+   "master": "MasterSpreads/MasterSpread_u3.xml",
+   "master_page_transform": "1 0 0 1 -306 -396"
+  },
+  "inspect": {
+   "pageCount": 2,
+   "parents": [
+    {
+     "id": 4,
+     "items": 1,
+     "label": "A-Parent"
+    }
+   ],
+   "stories": [
+    {
+     "id": 2,
+     "frames": [
+      6
+     ],
+     "overset": false,
+     "preview": "Running head · Page  · Section "
+    },
+    {
+     "id": 3,
+     "frames": [
+      9
+     ],
+     "overset": false,
+     "preview": "kicker in all caps style\nsmall caps heading\nTab:\there | forced break |"
+    }
+   ],
+   "warnings": []
+  },
+  "openIdml": {
+   "documentFonts": 0,
+   "warnings": []
+  }
+ },
+ "fx_misc": {
+  "build_last_results": {
+   "bytes": 10178,
+   "path": "C:/Programming/craft-studio/idml-translator/fixtures/fx_misc.idml"
+  },
+  "patch": {
+   "story": "Stories/Story_u8.xml",
+   "added": [
+    "Change(DeletedText)",
+    "Change(InsertedText)",
+    "Note",
+    "XMLElement",
+    "ObjectExportOption",
+    "XML/Tags.xml",
+    "XML/BackingStory.xml"
+   ]
+  },
+  "inspect": {
+   "pageCount": 1,
+   "parents": [
+    {
+     "id": 4,
+     "items": 0,
+     "label": "A-Parent"
+    }
+   ],
+   "stories": [
+    {
+     "id": 2,
+     "frames": [
+      8
+     ],
+     "overset": false,
+     "preview": "Deleted words. Note anchor here. Conditional words here. Hidden condit"
+    },
+    {
+     "id": 3,
+     "frames": [
+      9
+     ],
+     "overset": false,
+     "preview": "Text on a path"
+    }
+   ],
+   "warnings": []
+  },
+  "openIdml": {
+   "documentFonts": 0,
+   "warnings": []
+  }
+ }
+}

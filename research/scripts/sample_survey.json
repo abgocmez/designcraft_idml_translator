@@ -1,0 +1,508 @@
+{
+ "entries": [
+  [
+   "mimetype",
+   "stored"
+  ],
+  [
+   "META-INF/container.xml",
+   "deflated"
+  ],
+  [
+   "designmap.xml",
+   "deflated"
+  ],
+  [
+   "Resources/Graphic.xml",
+   "deflated"
+  ],
+  [
+   "Resources/Fonts.xml",
+   "deflated"
+  ],
+  [
+   "Resources/Styles.xml",
+   "deflated"
+  ],
+  [
+   "Resources/Preferences.xml",
+   "deflated"
+  ],
+  [
+   "MasterSpreads/MasterSpread_u4.xml",
+   "deflated"
+  ],
+  [
+   "Spreads/Spread_ua.xml",
+   "deflated"
+  ],
+  [
+   "Spreads/Spread_ub.xml",
+   "deflated"
+  ],
+  [
+   "Spreads/Spread_uc.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_ue.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u10.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u16.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u18.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u1a.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u1c.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u1e.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u20.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u24.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u26.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u2a.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u2e.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u30.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u33.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u36.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u39.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u3c.xml",
+   "deflated"
+  ],
+  [
+   "Stories/Story_u3e.xml",
+   "deflated"
+  ]
+ ],
+ "spread_items": {
+  "master:TextFrame": 2,
+  "master:GraphicLine": 2,
+  "spread:Rectangle": 4,
+  "spread:Image": 2,
+  "spread:TextFrame": 17,
+  "spread:Oval": 4
+ },
+ "textpaths": [],
+ "story_attrs": {
+  "TrackChanges=false": 18,
+  "AppliedTOCStyle=n": 18,
+  "StoryTitle=$ID/": 18
+ },
+ "elements_in_stories": {
+  "Story": 36,
+  "StoryPreference": 18,
+  "ParagraphStyleRange": 54,
+  "CharacterStyleRange": 56,
+  "Content": 53,
+  "Br": 20,
+  "Footnote": 1,
+  "Properties": 1,
+  "Leading": 1,
+  "Table": 1,
+  "Row": 5,
+  "Column": 3,
+  "Cell": 15
+ },
+ "content_count": 53,
+ "content_parents": {
+  "CharacterStyleRange": 53
+ },
+ "content_ancestor_paths": {
+  "ParagraphStyleRange/CharacterStyleRange": 37,
+  "ParagraphStyleRange/CharacterStyleRange/Footnote/ParagraphStyleRange/CharacterStyleRange": 1,
+  "ParagraphStyleRange/CharacterStyleRange/Table/Cell/ParagraphStyleRange/CharacterStyleRange": 15
+ },
+ "children_inside_content": {
+  "<?ACE 18?>": 2,
+  "<?ACE 4?>": 1
+ },
+ "siblings_of_content": {
+  "Br": 19,
+  "Properties": 1
+ },
+ "processing_instructions": {
+  "ACE 18": 2,
+  "ACE 4": 1
+ },
+ "special_chars": [
+  [
+   "U+0009",
+   "TAB",
+   1
+  ],
+  [
+   "U+00B7",
+   "MIDDLE DOT",
+   4
+  ],
+  [
+   "U+2014",
+   "EM DASH",
+   4
+  ],
+  [
+   "U+201C",
+   "LEFT DOUBLE QUOTATION MARK",
+   1
+  ],
+  [
+   "U+201D",
+   "RIGHT DOUBLE QUOTATION MARK",
+   1
+  ]
+ ],
+ "psr_without_csr": 0,
+ "csr_AppliedLanguage": {
+  "(inherit)": 56
+ },
+ "csr_AppliedConditions": {},
+ "stories": {
+  "u10": {
+   "file": "Stories/Story_u10.xml",
+   "content_elements": 1,
+   "placed": [
+    "master:MasterSpreads/MasterSpread_u4.xml"
+   ]
+  },
+  "u16": {
+   "file": "Stories/Story_u16.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_ua.xml"
+   ]
+  },
+  "u18": {
+   "file": "Stories/Story_u18.xml",
+   "content_elements": 2,
+   "placed": [
+    "spread:Spreads/Spread_ua.xml"
+   ]
+  },
+  "u1a": {
+   "file": "Stories/Story_u1a.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_ua.xml"
+   ]
+  },
+  "u1c": {
+   "file": "Stories/Story_u1c.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_ub.xml"
+   ]
+  },
+  "u1e": {
+   "file": "Stories/Story_u1e.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_ub.xml"
+   ]
+  },
+  "u20": {
+   "file": "Stories/Story_u20.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_ub.xml"
+   ]
+  },
+  "u24": {
+   "file": "Stories/Story_u24.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_ub.xml"
+   ]
+  },
+  "u26": {
+   "file": "Stories/Story_u26.xml",
+   "content_elements": 20,
+   "placed": [
+    "spread:Spreads/Spread_ub.xml"
+   ]
+  },
+  "u2a": {
+   "file": "Stories/Story_u2a.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_ub.xml"
+   ]
+  },
+  "u2e": {
+   "file": "Stories/Story_u2e.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_uc.xml"
+   ]
+  },
+  "u30": {
+   "file": "Stories/Story_u30.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_uc.xml"
+   ]
+  },
+  "u33": {
+   "file": "Stories/Story_u33.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_uc.xml"
+   ]
+  },
+  "u36": {
+   "file": "Stories/Story_u36.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_uc.xml"
+   ]
+  },
+  "u39": {
+   "file": "Stories/Story_u39.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_uc.xml"
+   ]
+  },
+  "u3c": {
+   "file": "Stories/Story_u3c.xml",
+   "content_elements": 1,
+   "placed": [
+    "spread:Spreads/Spread_uc.xml"
+   ]
+  },
+  "u3e": {
+   "file": "Stories/Story_u3e.xml",
+   "content_elements": 16,
+   "placed": [
+    "spread:Spreads/Spread_uc.xml"
+   ]
+  },
+  "ue": {
+   "file": "Stories/Story_ue.xml",
+   "content_elements": 1,
+   "placed": [
+    "master:MasterSpreads/MasterSpread_u4.xml"
+   ]
+  }
+ },
+ "master_stories": [
+  "u10",
+  "ue"
+ ],
+ "unplaced_stories": [],
+ "tables": [
+  {
+   "story": "u3e",
+   "Self": "u3f",
+   "HeaderRowCount": "1",
+   "BodyRowCount": "4",
+   "FooterRowCount": "0",
+   "ColumnCount": "3",
+   "rows": 5,
+   "cols": 3,
+   "cells": 15,
+   "cell_names": [
+    "0:0",
+    "1:0",
+    "2:0",
+    "0:1",
+    "1:1",
+    "2:1",
+    "0:2",
+    "1:2",
+    "2:2",
+    "0:3",
+    "1:3",
+    "2:3"
+   ],
+   "cell_child_tags": [
+    "ParagraphStyleRange"
+   ],
+   "cell_csr_counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "parent": "CharacterStyleRange"
+  }
+ ],
+ "footnotes": [
+  {
+   "story": "u26",
+   "Self": null,
+   "parent": "CharacterStyleRange",
+   "children": [
+    "ParagraphStyleRange"
+   ],
+   "text": "\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tEvery image, swatch and paragraph in this sample is genera",
+   "pis_inside": [
+    "ACE 4"
+   ],
+   "csr_count": 1
+  }
+ ],
+ "notes": [],
+ "anchored_objects": [],
+ "hyperlink_text_sources": [],
+ "text_variable_instances": [],
+ "changes": [],
+ "text_bearing_attrs_in_stories": {
+  "Row@Name": 5,
+  "Column@Name": 3,
+  "Cell@Name": 15
+ },
+ "bullet_chars": [
+  [
+   "ParagraphStyle/$ID/[No paragraph style]",
+   {
+    "BulletCharacterType": "UnicodeOnly",
+    "BulletCharacterValue": "8226"
+   }
+  ]
+ ],
+ "capitalization_styles": [
+  [
+   "ParagraphStyle",
+   "ParagraphStyle/Kicker",
+   "AllCaps"
+  ]
+ ],
+ "style_AppliedLanguage": {
+  "ParagraphStyle: $ID/English: USA": 1
+ },
+ "designmap": {
+  "StoryList": [
+   "ue",
+   "u10",
+   "u16",
+   "u18",
+   "u1a",
+   "u1c",
+   "u1e",
+   "u20",
+   "u24",
+   "u26",
+   "u2a",
+   "u2e",
+   "u30",
+   "u33",
+   "u36",
+   "u39",
+   "u3c",
+   "u3e"
+  ],
+  "Language": [
+   {
+    "Self": "Language/$ID/[No Language]",
+    "Name": "$ID/[No Language]"
+   },
+   {
+    "Self": "Language/$ID/English%3a USA",
+    "Name": "$ID/English: USA"
+   }
+  ],
+  "TextVariable": [
+   [
+    "<?AID 001b?>TV XRefChapterNumber",
+    "XrefChapterNumberType",
+    null
+   ],
+   [
+    "<?AID 001b?>TV XRefPageNumber",
+    "XrefPageNumberType",
+    null
+   ]
+  ],
+  "Section": [
+   {
+    "Self": "u14b",
+    "Name": "",
+    "Marker": "",
+    "SectionPrefix": ""
+   }
+  ],
+  "XrefCustomText": [
+   "\"",
+   "\" on page ",
+   "\"",
+   "\"",
+   "\"",
+   "\" on page ",
+   "\"",
+   "\"",
+   " on page ",
+   "\"",
+   "\" on page ",
+   "\"",
+   "\"",
+   "page ",
+   "\"",
+   "\" on page ",
+   "\"",
+   "\""
+  ]
+ },
+ "preferences": [
+  [
+   "FootnoteOption",
+   {
+    "Prefix": "",
+    "Suffix": ""
+   }
+  ]
+ ]
+}

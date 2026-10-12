@@ -1,0 +1,64 @@
+== inspect / determinism
+sample: pageCount=4 spreads=3 stories=18 inspect 58 ms (min of 3)
+inspect deterministic across runs: True
+
+== story_map (geometry + rank fallback)
+  dc  2 -> Stories/Story_ue.xml     via rank
+  dc  3 -> Stories/Story_u10.xml    via rank
+  dc  4 -> Stories/Story_u16.xml    via geometry
+  dc  5 -> Stories/Story_u18.xml    via geometry
+  dc  6 -> Stories/Story_u1a.xml    via geometry
+  dc  7 -> Stories/Story_u1c.xml    via geometry
+  dc  8 -> Stories/Story_u1e.xml    via geometry
+  dc  9 -> Stories/Story_u20.xml    via geometry
+  dc 10 -> Stories/Story_u24.xml    via geometry
+  dc 11 -> Stories/Story_u26.xml    via geometry
+  dc 12 -> Stories/Story_u2a.xml    via geometry
+  dc 13 -> Stories/Story_u2e.xml    via geometry
+  dc 14 -> Stories/Story_u30.xml    via geometry
+  dc 15 -> Stories/Story_u33.xml    via geometry
+  dc 16 -> Stories/Story_u36.xml    via geometry
+  dc 17 -> Stories/Story_u39.xml    via geometry
+  dc 18 -> Stories/Story_u3c.xml    via geometry
+  dc 19 -> Stories/Story_u3e.xml    via geometry
+  text check on sample: 18/18 stories identical; mismatches: []
+  reversed <idPkg:Story> order: DC ids [2, 4, 5, 6] ...; frame->file mapping identical to sample: True ; methods: {'geometry': 16, 'rank': 2}
+
+== TR output sample_tr.idml
+  story_map identical to sample: True
+  geometry diffs vs sample: none
+  overset DC stories: [] -> []
+  preflight: {"errors": 0, "issues": [], "warnings": 0}
+  new issues vs source: []
+  missing glyphs: none
+
+== DE output sample_de.idml
+  story_map identical to sample: True
+  geometry diffs vs sample: none
+  overset DC stories: [11] -> ['Stories/Story_u26.xml']
+  preflight: {"errors": 1, "issues": [{"item": 45, "kind": "overset", "message": "Overset text: 525 characters", "page": 2, "severity": "error"}], "warnings": 0}
+  new issues vs source: [{"item": 45, "kind": "overset", "message": "Overset text: 525 characters", "page": 2, "severity": "error"}]
+  missing glyphs: none
+
+== export_pngs (4 pages, 0-based --page)
+  sample_p1.png: 630x810 render 47.4 ms, 103 glyphs
+  sample_p2.png: 630x810 render 26.3 ms, 1171 glyphs
+  sample_p3.png: 630x810 render 10.1 ms, 3410 glyphs
+  sample_p4.png: 630x810 render 5.5 ms, 466 glyphs
+  wall for all 4: 127 ms
+
+== timings (wall, min of 3 runs, includes process start)
+  document.inspect                                55 ms
+  preflight.run                                   58 ms
+  font.list                                       49 ms
+  story.get (1 story)                             52 ms
+  18x story.get in one run                        54 ms
+  inspect+preflight+font.list in one run          79 ms
+  file.exportPdf (4 pages)                       151 ms
+  export_pngs (4 pages)                          116 ms
+  no-op open (version)                             8 ms
+
+== missing-glyph check on a synthetic preflight result
+   {'Bell MT Regular': {'Ğ', 'İ', 'Ş', 'ş', 'ẞ', 'ğ'}}
+
+OK

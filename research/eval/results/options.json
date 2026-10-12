@@ -1,0 +1,36 @@
+{
+  "cap8": {
+    "done_reason": "length",
+    "eval_tokens": 8,
+    "output": "Die Typografie übernimmt die"
+  },
+  "stop": {
+    "done_reason": "stop",
+    "eval_tokens": 10,
+    "output": "Anmerkungen zur Gitterstruktur",
+    "has_special": false
+  },
+  "ps": {
+    "models": [
+      {
+        "name": "hf.co/tencent/Hy-MT2-7B-GGUF:Q4_K_M",
+        "model": "hf.co/tencent/Hy-MT2-7B-GGUF:Q4_K_M",
+        "size": 5511914805,
+        "digest": "b2462d5b21a37239c24b9181fb70901a4534c25081c01b25d0c1239095ca77d3",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "hunyuan-dense",
+          "families": [
+            "hunyuan-dense"
+          ],
+          "parameter_size": "7.5B",
+          "quantization_level": "unknown"
+        },
+        "expires_at": "2026-10-12T15:59:09.630613+03:00",
+        "size_vram": 5511914805,
+        "context_length": 4096
+      }
+    ]
+  }
+}
